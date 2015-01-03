@@ -14,22 +14,20 @@ Once you found it, `cd` into it, run `git clone https://github.com/keyboardsurfe
 - **``fbc``**: "findViewById with cast" 
 - **``foreach``**: "Create a for each loop" 
 - **``IntentView``**: "Creates an Intent with ACTION_VIEW" 
-- **``logd``**: "Log.d(TAG, String)" 
-- **``loge``**: "Log.e(TAG, String)" 
-- **``logi``**: "Log.i(TAG, String)" 
 - **``LogTag``**: "A static logtag with your current classname" 
 - **``newInstance``**: "create a new Fragment instance with arguments" 
-- **``pf``**: "private static final variable with type and member" 
+- **``noInstance``**: "private empty constructor to prohibit instance creation" 
+- **``pf``**: "private final variable with type and member" 
 - **``psf``**: "private static final variable with type and member" 
 - **``rgC``**: "get a color from resources" 
 - **``rgS``**: "get a String from resources" 
 - **``rouiT``**: "runOnUIThread" 
 - **``sbc``**: "block comment for structuring code" 
 - **``Sfmt``**: "String format" 
+- **``starter``**: "Creates a static start(...) helper method to start an Activity" 
 - **``Toast``**: "Create a new Toast" 
 - **``ViewConstructors``**: "Adds generic view constructors" 
 - **``wrapIt``**: "adds a gradle wrapper task" 
-- **``wtf``**: "Log.wtf(TAG, String)" 
 
 ### AndroidComments.xml
 - **``ccode``**: "code tag for javadoc" 
@@ -47,6 +45,12 @@ Once you found it, `cd` into it, run `git clone https://github.com/keyboardsurfe
 - **``CroutonShow``**: "Creates a new Crouton with Crouton.showText" 
 - **``onEvent``**: "Adds onEvent method for eventbus" 
 - **``onEventMainThread``**: "Adds onMainThreadEvent method for eventbus" 
+
+### AndroidLog.xml
+- **``logd``**: "Log.d(TAG, String)" 
+- **``loge``**: "Log.e(TAG, String)" 
+- **``logi``**: "Log.i(TAG, String)" 
+- **``wtf``**: "Log.wtf(TAG, String)" 
 
 ### AndroidParcelable.xml
 - **``Parcelable``**: "Create a parcelable block for your current class" 
@@ -73,3 +77,8 @@ Once you found it, `cd` into it, run `git clone https://github.com/keyboardsurfe
 3. Send me a pull request
 4. Wait
 5. Profit
+
+
+## License
+
+* [Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
